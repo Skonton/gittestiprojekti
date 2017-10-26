@@ -9,4 +9,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Esimerkki</display-name>
+    <servlet-name>Esimerkki</servlet-name>
+    <servlet-class>paskaboxi.Esimerkki</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Esimerkki</servlet-name>
+    <url-pattern>/Esimerkki</url-pattern>
+  </servlet-mapping>
 </web-app>
